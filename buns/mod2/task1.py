@@ -9,4 +9,4 @@ for i in range(0, len(s)):
     b += s[i]
   else:
     countSpace += 1
-print(a%b)
+print(int(a) % int(b))
